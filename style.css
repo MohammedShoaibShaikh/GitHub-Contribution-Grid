@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1d15152a;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  text-align: center;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    right: 50%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 350px;
+}
+#first {
+  position: absolute;
+  bottom: 18%;
+  right: 30%;
+  size: 0.5px;
+  box-sizing: 10px;
+  font-size: xx-small;
+  
+}
+#second {
+  position: absolute;
+  bottom: 14%;
+  right: 30%;
+  size: 0.9px;
+  box-sizing: 11px;
+  font-size: xx-small;
+  
+}
+#third {
+  position: absolute;
+  bottom: 10%;
+  right: 30%;
+  size: 0.9px;
+  box-sizing: 10px;
+  font-size: xx-small;
+  
+}
+
+h6{
+  position: absolute;
+  justify-content: center;
+  bottom: 1%;
+  right: 45%;
+  size: 0.9px;
+  box-sizing: 10px;
+  font-size: small;
+}
+
+.activity {
+  background-color: rgb(214, 214, 214);
+  box-shadow: 0 0 2px rgb(151, 151, 151);
+  margin: 5px;
+  height: 15px;
+  width: 15px;
+  transition: 3s ease;
+  overflow:hidden;
+  border-radius: 2px;
+}
+.activity:hover {
+  transition-duration: 0s;
+  overflow:hidden;
+}
